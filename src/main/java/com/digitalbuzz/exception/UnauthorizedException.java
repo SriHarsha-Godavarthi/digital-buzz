@@ -1,0 +1,7 @@
+package com.digitalbuzz.exception;
+
+public class UnauthorizedException extends RuntimeException {
+    public UnauthorizedException(String message) {
+        super(message);
+    }
+}
